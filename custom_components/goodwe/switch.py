@@ -57,6 +57,13 @@ SWITCHES = (
         device_class=SwitchDeviceClass.SWITCH,
         setting="backup_supply",
     ),
+    GoodweSwitchEntityDescription(
+        key="shadow_scan",
+        translation_key="shadow_scan",
+        entity_category=EntityCategory.CONFIG,
+        device_class=SwitchDeviceClass.SWITCH,
+        setting="shadow_scan",
+    ),
 )
 
 

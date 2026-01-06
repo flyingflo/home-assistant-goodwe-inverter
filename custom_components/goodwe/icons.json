@@ -64,6 +64,13 @@
           "on": "mdi:battery-medium",
           "off": "mdi:battery-medium"
         }
+      },
+      "shadow_scan": {
+        "default": "mdi:sun-angle",
+        "state": {
+          "on": "mdi:sun-angle",
+          "off": "mdi:sun-angle-outline"
+        }
       }
     }
   }
